@@ -1,7 +1,7 @@
 ﻿@model int
 <div class="row">
     <div class="col-6">
-        <input type="submit" value="Delete" class="btn btn-danger" asp-route-id="@Model" />
+        <input type="submit" value="Delete" class="btn btn-danger" asp-route-id="@Model" onclick="return confirm('Are you sure ?')" />
     </div>
     <div class="col-6">
         <a class="btn btn-success" asp-action="Index">Back to List</a>

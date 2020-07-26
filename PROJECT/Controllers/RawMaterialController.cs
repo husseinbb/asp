@@ -35,12 +35,18 @@ namespace PROJECT.Controllers
         {
             if (ModelState.IsValid)
             {
+
+             
+
+
                 _db.RawMaterials.Add(rawMaterial);
                 await _db.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
             return View(rawMaterial);
         }
+
+        
 
         //Get - Edit
         public async Task<IActionResult> Edit(int? id)

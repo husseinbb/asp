@@ -15,6 +15,7 @@
     <div>
         @if (Model.Count() > 0)
         {
+            <h4 class="text-info">Raw Material</h4>
             <table class="table table-striped border">
                 <tr class="table-secondary">
                     <th>
@@ -26,15 +27,44 @@
                 </tr>
                 @foreach (var item in Model)
                 {
+                    @if (item.type == "New")
+                    {
+                        <tr>
+                            <td>
 
-                    <tr>
-                        <td>
-                            @Html.DisplayFor(m => item.name)
-                        </td>
-                        <td>
-                           <partial name="_tableButtonPartial" model="item.Id" />
-                        </td>
-                    </tr>
+                                @Html.DisplayFor(m => item.name)
+                            </td>
+                            <td>
+                                <partial name="_tableButtonPartial" model="item.Id" />
+                            </td>
+                        </tr>
+                    }
+                }
+            </table>
+            <h4 class="text-info">Raw Material Stock</h4>
+            <table class="table table-striped border">
+                <tr class="table-secondary">
+                    <th>
+                        @Html.DisplayNameFor(m => m.name)
+                    </th>
+                    <th>
+                    </th>
+                    <th></th>
+                </tr>
+                @foreach (var item in Model)
+                {
+                    @if (item.type == "Stock")
+                    {
+                        <tr>
+                            <td>
+
+                                @Html.DisplayFor(m => item.name)
+                            </td>
+                            <td>
+                                <partial name="_tableButtonPartial" model="item.Id" />
+                            </td>
+                        </tr>
+                    }
                 }
             </table>
         }

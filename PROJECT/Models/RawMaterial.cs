@@ -13,6 +13,7 @@ namespace PROJECT.Models
         [Required]
         public String name { get; set; }
         public String description { get; set; }
+        [Required]
         public String type { get; set; }
         public double price { get; set; }
         public int quantity { get; set; }

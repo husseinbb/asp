@@ -8408,11 +8408,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Hussein\\source\\repos\\project\\PROJECT\\PROJECT.csproj",
+      "projectUniqueName": "C:\\Users\\Hussein\\Source\\Repos\\asp\\PROJECT\\PROJECT.csproj",
       "projectName": "PROJECT",
-      "projectPath": "C:\\Users\\Hussein\\source\\repos\\project\\PROJECT\\PROJECT.csproj",
+      "projectPath": "C:\\Users\\Hussein\\Source\\Repos\\asp\\PROJECT\\PROJECT.csproj",
       "packagesPath": "C:\\Users\\Hussein\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Hussein\\source\\repos\\project\\PROJECT\\obj\\",
+      "outputPath": "C:\\Users\\Hussein\\Source\\Repos\\asp\\PROJECT\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Hussein\\AppData\\Roaming\\NuGet\\NuGet.Config",
