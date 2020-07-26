@@ -1,0 +1,67 @@
+﻿@model RawMaterial
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<br />
+<h2 class="text-info">Create Raw Material</h2>
+<br />
+
+<form method="post" asp-action="Create">
+    <div class="border backgroundWhite">
+        <div asp-validation-summary="ModelOnly" class="text-danger">
+
+        </div>
+        <div class="form-group row">
+            <div class="col-2">
+                <label asp-for="name" class="col-form-label">Name</label>
+            </div>
+            <div class="col-5">
+                <input asp-for="name" class="form-control" />
+            </div>
+            <span asp-validation-for="name" class="text-danger"></span>
+        </div>
+        <div class="form-group row">
+            <div class="col-2">
+                <label asp-for="description" class="col-form-label">Description</label>
+            </div>
+            <div class="col-5">
+                <input asp-for="description" class="form-control" />
+            </div>
+            <span asp-validation-for="description" class="text-danger"></span>
+        </div>
+        <div class="form-group row">
+            <div class="col-2">
+                <label asp-for="type" class="col-form-label">Type</label>
+            </div>
+            <div class="col-5">
+                <input asp-for="type" class="form-control" />
+            </div>
+            <span asp-validation-for="type" class="text-danger"></span>
+        </div>
+        <div class="form-group row">
+            <div class="col-2">
+                <label asp-for="price" class="col-form-label">Price</label>
+            </div>
+            <div class="col-5">
+                <input asp-for="price" class="form-control" />
+            </div>
+            <span asp-validation-for="price" class="text-danger"></span>
+        </div>
+        <div class="form-group row">
+            <div class="col-2">
+                <label asp-for="quantity" class="col-form-label">Quantity</label>
+            </div>
+            <div class="col-5">
+                <input asp-for="quantity" class="form-control" />
+            </div>
+            <span asp-validation-for="quantity" class="text-danger"></span>
+        </div>
+        <div class="form-group row">
+            <div class="col-5 offset-2">
+                <partial name="_CreateAndBacktoList" />
+            </div>
+        </div>
+    </div>
+</form>

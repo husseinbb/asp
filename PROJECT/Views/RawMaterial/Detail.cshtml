@@ -1,0 +1,39 @@
+﻿@model PROJECT.Models.RawMaterial
+
+@{
+    ViewData["Title"] = "Detail";
+}
+
+<h1>Details</h1>
+
+<h4>RawMaterial</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Detail" method="post">
+
+            <div class="form-group">
+                <label asp-for="name" class="control-label"></label>
+                <input asp-for="name" class="form-control" readonly />
+            </div>
+            <div class="form-group">
+                <label asp-for="description" class="control-label"></label>
+                <input asp-for="description" class="form-control" readonly />
+            </div>
+            <div class="form-group">
+                <label asp-for="type" class="control-label"></label>
+                <input asp-for="type" class="form-control" readonly />
+            </div>
+            <div class="form-group">
+                <label asp-for="price" class="control-label"></label>
+                <input asp-for="price" class="form-control" readonly />
+            </div>
+            <div class="form-group">
+                <label asp-for="quantity" class="control-label"></label>
+                <input asp-for="quantity" class="form-control" readonly />
+            </div>
+
+         
+        </form>
+    </div>
+</div>
