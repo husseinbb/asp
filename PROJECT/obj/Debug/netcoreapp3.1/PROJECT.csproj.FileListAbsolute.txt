@@ -852,3 +852,8 @@ C:\Users\Hussein\Source\Repos\asp\PROJECT\obj\Debug\netcoreapp3.1\staticwebasset
 C:\Users\Hussein\Source\Repos\asp\PROJECT\obj\Debug\netcoreapp3.1\PROJECT.dll
 C:\Users\Hussein\Source\Repos\asp\PROJECT\obj\Debug\netcoreapp3.1\PROJECT.pdb
 C:\Users\Hussein\Source\Repos\asp\PROJECT\obj\Debug\netcoreapp3.1\PROJECT.genruntimeconfig.cache
+C:\Users\Hussein\Source\Repos\asp\PROJECT\obj\Debug\netcoreapp3.1\Razor\Views\FinishedProduct\Index.cshtml.g.cs
+C:\Users\Hussein\Source\Repos\asp\PROJECT\obj\Debug\netcoreapp3.1\Razor\Views\FinishedProduct\Create.cshtml.g.cs
+C:\Users\Hussein\Source\Repos\asp\PROJECT\obj\Debug\netcoreapp3.1\Razor\Views\FinishedProduct\Detail.cshtml.g.cs
+C:\Users\Hussein\Source\Repos\asp\PROJECT\obj\Debug\netcoreapp3.1\Razor\Views\FinishedProduct\Delete.cshtml.g.cs
+C:\Users\Hussein\Source\Repos\asp\PROJECT\obj\Debug\netcoreapp3.1\Razor\Views\FinishedProduct\Edit.cshtml.g.cs
