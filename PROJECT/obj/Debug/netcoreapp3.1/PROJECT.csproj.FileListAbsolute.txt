@@ -818,9 +818,6 @@ C:\Users\Hussein\Source\Repos\asp\PROJECT\bin\Debug\netcoreapp3.1\runtimes\win\l
 C:\Users\Hussein\Source\Repos\asp\PROJECT\obj\Debug\netcoreapp3.1\PROJECT.csprojAssemblyReference.cache
 C:\Users\Hussein\Source\Repos\asp\PROJECT\obj\Debug\netcoreapp3.1\PROJECT.AssemblyInfoInputs.cache
 C:\Users\Hussein\Source\Repos\asp\PROJECT\obj\Debug\netcoreapp3.1\PROJECT.AssemblyInfo.cs
-C:\Users\Hussein\Source\Repos\asp\PROJECT\obj\Debug\netcoreapp3.1\PROJECT.csproj.CoreCompileInputs.cache
-C:\Users\Hussein\Source\Repos\asp\PROJECT\obj\Debug\netcoreapp3.1\PROJECT.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\Hussein\Source\Repos\asp\PROJECT\obj\Debug\netcoreapp3.1\PROJECT.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Hussein\Source\Repos\asp\PROJECT\obj\Debug\netcoreapp3.1\PROJECT.RazorAssemblyInfo.cache
 C:\Users\Hussein\Source\Repos\asp\PROJECT\obj\Debug\netcoreapp3.1\PROJECT.RazorAssemblyInfo.cs
 C:\Users\Hussein\Source\Repos\asp\PROJECT\obj\Debug\netcoreapp3.1\PROJECT.TagHelpers.input.cache
@@ -857,3 +854,8 @@ C:\Users\Hussein\Source\Repos\asp\PROJECT\obj\Debug\netcoreapp3.1\Razor\Views\Fi
 C:\Users\Hussein\Source\Repos\asp\PROJECT\obj\Debug\netcoreapp3.1\Razor\Views\FinishedProduct\Detail.cshtml.g.cs
 C:\Users\Hussein\Source\Repos\asp\PROJECT\obj\Debug\netcoreapp3.1\Razor\Views\FinishedProduct\Delete.cshtml.g.cs
 C:\Users\Hussein\Source\Repos\asp\PROJECT\obj\Debug\netcoreapp3.1\Razor\Views\FinishedProduct\Edit.cshtml.g.cs
+C:\Users\Hussein\Source\Repos\asp\PROJECT\obj\Debug\netcoreapp3.1\Razor\Views\Customer\Index.cshtml.g.cs
+C:\Users\Hussein\Source\Repos\asp\PROJECT\obj\Debug\netcoreapp3.1\Razor\Views\Customer\Create.cshtml.g.cs
+C:\Users\Hussein\Source\Repos\asp\PROJECT\obj\Debug\netcoreapp3.1\PROJECT.csproj.CoreCompileInputs.cache
+C:\Users\Hussein\Source\Repos\asp\PROJECT\obj\Debug\netcoreapp3.1\PROJECT.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Hussein\Source\Repos\asp\PROJECT\obj\Debug\netcoreapp3.1\PROJECT.MvcApplicationPartsAssemblyInfo.cache

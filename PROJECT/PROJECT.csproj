@@ -5,18 +5,41 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Migrations\20200727115758_addCustToDatabase.cs" />
+    <Compile Remove="Migrations\20200727115758_addCustToDatabase.Designer.cs" />
+    <Compile Remove="Migrations\20200727120748_addtestToDatabase.cs" />
+    <Compile Remove="Migrations\20200727120748_addtestToDatabase.Designer.cs" />
+    <Compile Remove="Migrations\20200727121243_addCustomerToDatabase.cs" />
+    <Compile Remove="Migrations\20200727121243_addCustomerToDatabase.Designer.cs" />
+    <Compile Remove="Migrations\20200727121927_addtestToDatabase.cs" />
+    <Compile Remove="Migrations\20200727121927_addtestToDatabase.Designer.cs" />
+    <Compile Remove="Migrations\20200728090413_addCustomerToDatabase.cs" />
+    <Compile Remove="Migrations\20200728090413_addCustomerToDatabase.Designer.cs" />
+    <Compile Remove="Migrations\20200728090944_addCustomerToDatabase.cs" />
+    <Compile Remove="Migrations\20200728090944_addCustomerToDatabase.Designer.cs" />
+    <Compile Remove="Migrations\20200728091035_addCustomerToDatabase.cs" />
+    <Compile Remove="Migrations\20200728091035_addCustomerToDatabase.Designer.cs" />
+    <Compile Remove="Migrations\20200728091329_a.cs" />
+    <Compile Remove="Migrations\20200728091329_a.Designer.cs" />
+    <Compile Remove="Migrations\20200728091535_addCustomerToDatabase.cs" />
+    <Compile Remove="Migrations\20200728091535_addCustomerToDatabase.Designer.cs" />
     <Compile Remove="Models\Raw.cs" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="3.1.6" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="3.1.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.6" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.6" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.6">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\Images\" />
   </ItemGroup>
 
 </Project>

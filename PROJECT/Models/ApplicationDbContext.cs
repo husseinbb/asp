@@ -14,6 +14,7 @@ namespace PROJECT.Models
         }
         public DbSet<RawMaterial> RawMaterials { get; set; }
         public DbSet<FinishedProduct> FinishedProducts { get; set; }
+        public DbSet<Customer> Customers { get; set; }
 
     }
 }
