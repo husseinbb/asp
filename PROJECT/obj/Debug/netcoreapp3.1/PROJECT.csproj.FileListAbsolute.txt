@@ -815,7 +815,6 @@ C:\Users\Hussein\Source\Repos\asp\PROJECT\bin\Debug\netcoreapp3.1\runtimes\win-x
 C:\Users\Hussein\Source\Repos\asp\PROJECT\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\Hussein\Source\Repos\asp\PROJECT\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\Hussein\Source\Repos\asp\PROJECT\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\Hussein\Source\Repos\asp\PROJECT\obj\Debug\netcoreapp3.1\PROJECT.csprojAssemblyReference.cache
 C:\Users\Hussein\Source\Repos\asp\PROJECT\obj\Debug\netcoreapp3.1\PROJECT.AssemblyInfoInputs.cache
 C:\Users\Hussein\Source\Repos\asp\PROJECT\obj\Debug\netcoreapp3.1\PROJECT.AssemblyInfo.cs
 C:\Users\Hussein\Source\Repos\asp\PROJECT\obj\Debug\netcoreapp3.1\PROJECT.RazorAssemblyInfo.cache
@@ -859,3 +858,7 @@ C:\Users\Hussein\Source\Repos\asp\PROJECT\obj\Debug\netcoreapp3.1\Razor\Views\Cu
 C:\Users\Hussein\Source\Repos\asp\PROJECT\obj\Debug\netcoreapp3.1\PROJECT.csproj.CoreCompileInputs.cache
 C:\Users\Hussein\Source\Repos\asp\PROJECT\obj\Debug\netcoreapp3.1\PROJECT.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Hussein\Source\Repos\asp\PROJECT\obj\Debug\netcoreapp3.1\PROJECT.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Hussein\Source\Repos\asp\PROJECT\obj\Debug\netcoreapp3.1\Razor\Views\Customer\Delete.cshtml.g.cs
+C:\Users\Hussein\Source\Repos\asp\PROJECT\obj\Debug\netcoreapp3.1\Razor\Views\Customer\Detail.cshtml.g.cs
+C:\Users\Hussein\Source\Repos\asp\PROJECT\obj\Debug\netcoreapp3.1\Razor\Views\Customer\Edit.cshtml.g.cs
+C:\Users\Hussein\Source\Repos\asp\PROJECT\obj\Debug\netcoreapp3.1\PROJECT.csprojAssemblyReference.cache

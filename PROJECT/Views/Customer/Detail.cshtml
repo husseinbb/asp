@@ -1,0 +1,46 @@
+﻿@model PROJECT.Models.Customer
+
+@{
+    ViewData["Title"] = "Detail";
+}
+
+<h1>Details</h1>
+
+<h4>Customer</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Delete" method="post">
+
+            <div class="form-group">
+                <label asp-for="fname" class="control-label"></label>
+                <input asp-for="fname" class="form-control" readonly />
+            </div>
+            <div class="form-group">
+                <label asp-for="lname" class="control-label"></label>
+                <input asp-for="lname" class="form-control" readonly />
+            </div>
+            <div class="form-group">
+                <label asp-for="address" class="control-label"></label>
+                <input asp-for="address" class="form-control" readonly />
+            </div>
+            <div class="form-group">
+                <label asp-for="CNIC" class="control-label"></label>
+                <input asp-for="CNIC" class="form-control" readonly />
+            </div>
+            <div class="form-group">
+                <label asp-for="contact" class="control-label"></label>
+                <input asp-for="contact" class="form-control" readonly />
+            </div>
+            <div class="form-group">
+                <label asp-for="imageName" class="control-label">Image</label>
+                <img src="@("~/Images/"+Model.imageName)" asp-append-version="true" width="200px" height="200px" />
+            </div>
+
+            <div class="col-6">
+                <a asp-action="Index" class="btn btn-success form-control">Back to List</a>
+            </div>
+
+        </form>
+    </div>
+</div>

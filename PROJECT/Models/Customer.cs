@@ -35,17 +35,6 @@ namespace PROJECT.Models
         public IFormFile ImageFile { get; set; }
 
 
-        /*
        
-            [Column(TypeName = "varchar(100)")]
-            [DisplayName("Image Name")]
-            public string ImageName { get; set; }
-
-            [NotMapped]
-            [DisplayName("Upload File")]
-            public IFormFile ImageFile { get; set; }
-        
-
-        */
     }
 }
