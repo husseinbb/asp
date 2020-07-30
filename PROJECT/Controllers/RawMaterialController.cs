@@ -122,6 +122,22 @@ namespace PROJECT.Controllers
             return View(raw);
         }
 
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Search(String name) {
+
+            List<RawMaterial> raws = new List<RawMaterial>();
+            raws= await _db.RawMaterials.ToListAsync();
+            List<RawMaterial> list = new List<RawMaterial>();
+            foreach(var i in raws)
+            {
+                if (i.name == name)
+                {
+                    list.Add(i);
+                }
+            }
+            return View(list);
+        }
 
     }
 }

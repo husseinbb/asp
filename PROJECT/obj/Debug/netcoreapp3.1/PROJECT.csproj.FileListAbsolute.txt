@@ -862,3 +862,4 @@ C:\Users\Hussein\Source\Repos\asp\PROJECT\obj\Debug\netcoreapp3.1\Razor\Views\Cu
 C:\Users\Hussein\Source\Repos\asp\PROJECT\obj\Debug\netcoreapp3.1\Razor\Views\Customer\Detail.cshtml.g.cs
 C:\Users\Hussein\Source\Repos\asp\PROJECT\obj\Debug\netcoreapp3.1\Razor\Views\Customer\Edit.cshtml.g.cs
 C:\Users\Hussein\Source\Repos\asp\PROJECT\obj\Debug\netcoreapp3.1\PROJECT.csprojAssemblyReference.cache
+C:\Users\Hussein\Source\Repos\asp\PROJECT\obj\Debug\netcoreapp3.1\Razor\Views\RawMaterial\Search.cshtml.g.cs
