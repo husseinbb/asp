@@ -1,0 +1,51 @@
+﻿@model Cust_Raw
+@{
+}
+<br />
+<br />
+
+
+
+<div class="border backgroundWhite">
+    <div class="row">
+        <div class="col-6">
+            <h2 class="text-info">Raw Material List</h2>
+        </div>
+
+    </div>
+    <br />
+    
+    <div>
+        @if (Model.rawList.Count() > 0)
+        {
+            <h4 class="text-info">Raw Material</h4>
+            <table class="table table-striped border">
+                <tr class="table-secondary">
+                    <th>
+                        @Html.DisplayNameFor(m => m.rawMaterial.name)
+                    </th>
+                    <th>
+                    </th>
+                </tr>
+                @foreach (var item in Model.rawList)
+                {
+                    <tr>
+                        <td>
+
+                            @Html.DisplayFor(m => item.name)
+                        </td>
+                        <td style="width:150px">
+                            
+                            <a class="btn btn-danger text-white" asp-action="Pay"  asp-all-route-data="@(new Dictionary<String, String>{{ "idCus", @Model.customer.Id+"" },{ "idRaw", @item.Id+"" }})"  >Pay</a>
+                        </td>
+                    </tr>
+                }
+            </table>
+
+        }
+        else
+        {
+            <p>No Raw Material Exists</p>
+        }
+    </div>
+</div>

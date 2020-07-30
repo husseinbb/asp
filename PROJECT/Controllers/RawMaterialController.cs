@@ -35,10 +35,6 @@ namespace PROJECT.Controllers
         {
             if (ModelState.IsValid)
             {
-
-             
-
-
                 _db.RawMaterials.Add(rawMaterial);
                 await _db.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));

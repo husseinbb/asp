@@ -1,0 +1,50 @@
+﻿@model IEnumerable<Customer>
+@{
+}
+<br />
+<br />
+
+
+<div class="border backgroundWhite">
+    <div class="row">
+        <div class="col-6">
+            <h2 class="text-info">Customer List</h2>
+        </div>
+       
+    </div>
+    <br />
+    <div>
+        @if (Model.Count() > 0)
+        {
+            <h4 class="text-info">Customers</h4>
+            <table class="table table-striped border">
+                <tr class="table-secondary">
+                    <th>
+                        @Html.DisplayNameFor(m => m.Id)
+                    </th>
+                    <th>
+                    </th>
+                    
+                </tr>
+                @foreach (var item in Model)
+                {
+                    <tr >
+                        <td>
+
+                            @Html.DisplayFor(m => item.Id)
+                        </td>
+                        <td style="width:150px"  >
+                                <a  class="btn btn-primary text-white" asp-action="Select" asp-route-Id="@item.Id">Select</a>
+                        </td>
+                    </tr>
+                    
+                }
+            </table>
+            
+        }
+        else
+        {
+            <p>No Customer Exists</p>
+        }
+    </div>
+</div>
